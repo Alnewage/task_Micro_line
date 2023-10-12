@@ -1,0 +1,115 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="15">
+            <item index="0" class="java.lang.String" itemvalue="pyflakes" />
+            <item index="1" class="java.lang.String" itemvalue="pytest" />
+            <item index="2" class="java.lang.String" itemvalue="iniconfig" />
+            <item index="3" class="java.lang.String" itemvalue="py" />
+            <item index="4" class="java.lang.String" itemvalue="tomli" />
+            <item index="5" class="java.lang.String" itemvalue="packaging" />
+            <item index="6" class="java.lang.String" itemvalue="pycodestyle" />
+            <item index="7" class="java.lang.String" itemvalue="pyparsing" />
+            <item index="8" class="java.lang.String" itemvalue="flake8" />
+            <item index="9" class="java.lang.String" itemvalue="attrs" />
+            <item index="10" class="java.lang.String" itemvalue="django" />
+            <item index="11" class="java.lang.String" itemvalue="pytest-pythonpath" />
+            <item index="12" class="java.lang.String" itemvalue="telegram" />
+            <item index="13" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="14" class="java.lang.String" itemvalue="djangorestframework-simplejwt" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E131" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+          <option value="format" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="blogicum.blog.views.PostDefPostMixin.*" />
+          <option value="object.post" />
+          <option value="blogicum.blog.views.SuccessUrlMixin.request" />
+          <option value="blogicum.blog.views.CommentDefPostMixin.get_object" />
+          <option value="django.db.models.fields.related.ForeignKey.pk" />
+          <option value="notes.views.NoteBase.request" />
+          <option value="news.tests.test_routes.TestRoutes.news" />
+          <option value="news.tests.test_routes.TestRoutes.author" />
+          <option value="news.views.CommentBase.get_object" />
+          <option value="news.views.CommentBase.request" />
+          <option value="notes.tests.test_routes.TestRoutes.author" />
+          <option value="notes.tests.test_routes.TestRoutes.reader" />
+          <option value="notes.tests.test_routes.TestRoutes.users_statuses" />
+          <option value="notes.tests.test_routes.TestRoutes.note" />
+          <option value="news.tests.test_content.TestDetailPage.news" />
+          <option value="news.tests.test_content.TestDetailPage.author" />
+          <option value="notes.tests.test_content.TestContent.author" />
+          <option value="notes.tests.test_content.TestContent.url" />
+          <option value="news.tests.test_logic.TestCommentCreation.news" />
+          <option value="news.tests.test_logic.TestCommentCreation.user" />
+          <option value="news.tests.test_logic.TestCommentCreation.auth_client" />
+          <option value="object.get" />
+          <option value="object.get_object" />
+          <option value="blogicum.blog.views.PostCheckUserMixin.get_object" />
+          <option value="object.dispatch" />
+          <option value="blogicum.blog.views.PostCheckUserMixin.render_to_response" />
+          <option value="blogicum.blog.views.PostCheckUserMixin.get_context_data" />
+          <option value="news.tests.test_logic.TestCommentEditDelete.news" />
+          <option value="news.tests.test_logic.TestCommentEditDelete.author_client" />
+          <option value="news.tests.test_logic.TestCommentEditDelete.author" />
+          <option value="news.tests.test_logic.TestCommentEditDelete.reader_client" />
+          <option value="news.tests.test_logic.TestCommentEditDelete.reader" />
+          <option value="news.tests.test_logic.TestCommentEditDelete.comment" />
+          <option value="notes.tests.test_logic.TestNoteCreation.author" />
+          <option value="notes.tests.test_logic.TestNoteCreation.note" />
+          <option value="notes.tests.test_logic.TestNoteCreation.auth_client" />
+          <option value="notes.tests.test_logic.TestNoteCreation.reader" />
+          <option value="notes.tests.test_logic.TestNoteEditDelete.note" />
+          <option value="notes.tests.test_logic.TestNoteEditDelete.author" />
+          <option value="notes.tests.test_logic.TestNoteEditDelete.author_client" />
+          <option value="notes.tests.test_logic.TestNoteEditDelete.reader_client" />
+          <option value="notes.tests.test_logic.TestNoteEditDelete.reader" />
+          <option value="django.views.generic.detail.SingleObjectTemplateResponseMixin.get_context_data" />
+          <option value="str.get" />
+          <option value="tuple.slug" />
+          <option value="blogicum.blog.views.CheckUserMixin.get_object" />
+          <option value="blogicum.blog.views.CheckUserMixin.render_to_response" />
+          <option value="blogicum.blog.views.CheckUserMixin.get_context_data" />
+          <option value="ya_news.news.models.Comment.objects" />
+          <option value="ya_note.notes.models.Note.objects" />
+          <option value="notes.models.Note.objects" />
+          <option value="news.models.News.objects" />
+          <option value="news.models.Comment.objects" />
+          <option value="blogicum.blog.models.Category.posts" />
+          <option value="blogicum.blog.views.CheckUserMixin.request" />
+          <option value="django.contrib.auth.mixins.UserPassesTestMixin.get_object" />
+          <option value="notes.tests.test_content.TestContent.all_notes" />
+          <option value="homework.homework_name" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="TaskProblemsInspection" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES" />
+  </profile>
+</component>
